@@ -1,0 +1,737 @@
+@import 'includes/brand.less';
+@import 'includes/typography.less';
+@import 'includes/mixins.less';
+
+
+body {
+	font-size: 1em;
+	color: @lightgrey;
+	max-width: 1080px;
+  	margin: 0 auto;
+  	overflow: hidden;
+  	background-color: black;
+    text-transform: uppercase;
+    font-family: 'Eras Light ITC', 'tahoma', 'helvetica', sans-serif;
+    font-size: 100%;
+}
+
+/************************** HEADER *************************/
+
+ header#top_header {
+    background-color: black;
+    width: 100%;
+    height: 116px;
+    .logo {
+      float: left;
+      margin-right: 2%;
+    }
+    .colourwhite {
+      color:#c5c5c5;
+    }
+
+/************************** NAVIGATION *************************/
+
+nav {
+
+      float: left;
+      .navfontstyle;
+      color:@gold;
+      margin-top: 14px;
+      ul {
+        li {
+          display: inline-block;
+          margin-right: 10px;
+          a {
+            color: @lightgrey;
+            font-size: 1.4em;
+            transition: color 0.5s ease
+          }
+          a:hover {
+            color:white;
+          }
+        }
+      }
+      
+    }
+ }
+
+ header#top_header {
+ nav {
+  ul.social_media {
+    margin-top: 10px;
+    li {
+      margin-right: -6px;
+    }
+    img {
+      width:50%;
+    }
+  }
+ }
+}
+
+/************************** HOME *************************/
+
+#home {
+  position: relative;
+  max-width: 100%;
+  background-color: black;
+
+    .main_section {
+      
+      header#home_header {
+        
+        img {
+          .headerPositioning;
+          margin-bottom:-65px;
+
+        }
+        h1 {
+          .sectionHeaderStyle
+
+        }
+      }
+    }
+}
+
+
+.hero {
+  max-width: 100%;
+    .promotions_one {
+      max-width:14.7222222222%;
+      float: left;
+        .left_promo_block_one{
+          height:115px;
+          .promoBlockLeft;
+        }
+        .left_promo_block_two {
+          height:115px;
+          .promoBlockLeft;
+            img {
+              .promoBlockLeft;
+            }
+        }
+    }
+    .main_image {
+      max-width:72.5%;
+      float: left;
+    }
+    .promotions_two {
+      max-width: 12.7777777778%;
+      float: left;
+        .right_promo_block_one {
+          height:138px;
+          .promoBlockRight;
+        }
+        .right_promo_block_two {
+          height:138px;
+          img {
+            .promoBlockRight;
+          }
+        }
+    }
+}
+
+.intro_text {
+  position: relative;
+  z-index: 2;
+  .pstyle;
+  display: block;
+  margin-top: -70px;
+  padding-right: 235px;
+  float: right;
+  width:330px;
+  text-shadow: -2px 1px 5px rgba(0, 0, 0, 1);
+  
+
+    p {
+      margin-bottom: 0;
+      color:@lightgrey;
+      background-color: @lightbrown;
+      font-size: 1.5em;
+      line-height: 60%;
+      padding: 8px 4px 3px 4px;
+      
+    }
+    .smallerText {
+    font-size: 0.6em;
+    color:@gold;
+
+    }
+}
+
+/************************** MUSIC SECTION *************************/
+
+#music {
+  max-width: 100%;
+    header {
+      margin-bottom: 20px;
+      width: 100%;
+       h2 {
+        color:@lightgrey;
+        font-size: 1.875em;
+        background-color: @darkbrown;
+        padding: 10px 10px 8px 10px;
+       }
+      
+    }
+}
+
+.live_artists_list {
+  max-width: 100%;
+  font-size: 0.875em;
+    .goldText {
+    color:@gold;
+    margin-right: 4px;
+  }
+  .row_one, .row_two {
+    ul {
+      li {
+        .widthfloat (30%);
+        margin-bottom: 10px;
+      }
+    }
+  }
+  
+}
+
+.aera_details {
+  margin-bottom: 350px;
+}
+
+#menu_section {
+  max-width: 98%;
+  margin:0 auto;
+  header.menu_header {
+    h1 {
+      .sectionHeaderStyle;
+      margin-bottom:-70px;
+    }
+    img {
+      .headerPositioning;
+      margin-bottom: 50px;
+    }
+
+  }
+}
+
+#menu_section {
+  .daily_specials {
+    margin-bottom: 10px;
+    ul {
+      a {
+        color: @gold;
+        &:last-child  {
+          color:@lightgrey;
+          li {
+            background-color: @darkbrown;
+            transition: background-color 0.5s ease;
+          }
+          :hover {
+            background-color: @lightbrown;
+          }
+        }
+        li {
+          display: inline-block;
+          background-color: @darkgrey;
+          padding: 10px 10px 10px 10px;
+          margin-right: 6px;
+
+          transition: background-color 0.5s ease;
+          background-color: @darkgrey;
+        }
+        :hover {
+          background-color:@lightbrown;
+        }
+      }
+    }
+  }
+}
+
+/************************** MENU SECTION *************************/
+
+.menu {
+  .menu_intro {
+    .sectionSubHeaderStyle;
+  }
+}
+
+.menu {
+  margin-bottom: 400px;
+  .appetizers, .main_course, .desserts, .drinks {
+    .widthfloat (27.5%);
+    margin-right:0.5%;
+     li {
+      margin-bottom:3px;
+      &:first-child, &:first-child + li {
+        .gradientBG;
+        
+
+      }
+      img {
+        filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
+        filter: gray;
+        -webkit-filter: grayscale(100%);
+        -moz-transition: all 0.1s ease-in-out;
+        -webkit-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+      }
+      :hover {
+      filter: none;
+      -webkit-filter: grayscale(0%);
+      }
+      p {
+        color: @gold;
+        margin: 0 0 0 3px;
+      }
+      h3 {
+        margin: 0 0 0 3px;
+      }
+    }
+   }
+}
+
+/************************** CONTACT *************************/
+
+#contact_section {
+  max-width: 100%;
+  padding-top: 400px;
+    header {
+      h1 {
+        .sectionHeaderStyle;
+        margin-bottom:-70px; 
+      }
+      img {
+        .headerPositioning; 
+        margin-bottom: 70px;
+      }
+    }
+  .contact {
+    ul {
+      .sectionSubHeaderStyle;
+    }
+  }
+}
+
+#contact_section {
+  
+  .contact {
+  
+    form {
+      width: 100%;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      float: left;
+      label {
+        margin: 0 0 2% 0;
+        width: 100%;
+        float: left;
+        .labelappend {
+          width: 100%;
+        }
+        input {
+          color: @lightgrey;
+          background-color: @darkbrown;
+          border:none;
+          width: 50%;
+          padding: 10px;
+        }
+      }
+      input[type="submit"] {
+        float: none;
+        background-color: @lightbrown;
+        border:none;
+        padding: 10px 10px 10px 10px;
+        color:@gold;
+        text-transform: uppercase;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+/************************** FOOTER *************************/
+
+footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  background-color: @darkgrey;
+  clear: both;
+    p {
+      text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+/************************** MEDIA QUERIES *************************/
+
+
+
+@media only screen and (max-width: 900px) and (min-width: 320px) {
+
+
+/************************** HEADER *************************/
+
+ header#top_header {
+    height:250px;
+    .logo {
+      text-align: center;
+      float: none;
+    }
+    nav {
+      float: none;
+      text-align: center;
+      .navfontstyle;
+    
+      ul {
+        margin-bottom: 10px;
+      }
+  
+    }
+ }
+
+
+/************************** HOME *************************/
+
+#home {
+  .main_section {
+      header#home_header {
+        img {
+          max-width: 99%;
+        }
+        h1 {
+          font-size: 2.5em;
+          clear: both;
+        }
+      }
+    }
+}
+
+.hero {
+    .promotions_one {
+      display: none;
+    }
+    .main_image {
+      max-width:100%
+    }
+    .promotions_two {
+      display: none;
+        }
+}
+
+
+.intro_text {
+  padding-right: 100px;
+}
+
+
+
+/************************** MUSIC SECTION *************************/
+
+  .live_artists_list {
+  width: 95%;
+  margin: 0 auto;
+  .row_one, .row_two {
+    ul {
+      li {
+        .widthfloat (40%);
+        margin-right: 40px;
+      }
+    }
+  }
+  
+};
+
+
+/************************** MENU SECTION *************************/
+#menu_section {
+  header.menu_header {
+    h1 {
+      clear: both;
+      font-size: 2.5em;
+    }
+    img {
+      max-width: 99%;
+    }
+
+  }
+}
+
+.menu {
+  margin: 0 auto;
+  text-align: center;
+  .appetizers, .desserts {
+    padding-right: 120px;
+    li {
+
+    }
+  }
+}
+
+
+
+.menu {
+  margin-bottom: 400px;
+  .appetizers, .main_course, .desserts, .drinks {
+ 
+     li {
+      
+      img {
+        filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
+        filter: gray;
+        -webkit-filter: grayscale(0);
+        -moz-transition: all 0.1s ease-in-out;
+        -webkit-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+      }
+  
+    }
+   }
+}
+
+
+/************************** CONTACT *************************/
+
+
+#contact_section {
+  max-width: 100%;
+  margin-top: 200px;
+    header {
+      h1 {
+        padding-top:300px;
+      }
+      img {
+        .headerPositioning; 
+        margin-bottom: 70px;
+        max-width: 99%;
+      }
+    }
+  .contact {
+    ul {
+      .sectionSubHeaderStyle;
+    }
+  }
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+
+/************************** HEADER *************************/
+
+  header#top_header {
+    font-size: 120%;
+     nav {
+      ul.social_media {
+        li {
+          margin-right: -6px;
+        }
+        img {
+          width:100%;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media only screen and (max-width: 640px) and (min-width: 320px) {
+
+/************************** HOME *************************/
+
+body {
+  font-size: 120%;
+}
+
+header#top_header {
+  margin-bottom: 80px;
+}
+
+
+.hero {
+  max-width: 100%;
+    .promotions_one {
+      display: none;
+    }
+    .main_image {
+      max-width:100%
+    }
+    .promotions_two {
+      display: none;
+     }
+}
+
+.intro_text {
+  clear: both;
+  width: 100%;
+  margin-top: 0;
+  padding-right: 0;
+  padding-left: 15px;
+    p {
+
+    }
+    .smallerText {
+
+    }
+}
+  
+
+/************************** MUSIC SECTION *************************/
+
+#music {
+  margin: 0 auto;
+  text-align: center;
+    header {
+       h2 {
+      clear: both;
+      text-align: center;
+    }
+  }
+}
+
+
+
+  .live_artists_list {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.875em;
+  .row_one, .row_two {
+    ul {
+      
+      li {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  
+};
+
+
+/************************** MENU SECTION *************************/
+
+
+  ul.menu_intro {
+  padding-bottom: 30px;
+}
+
+
+#menu_section {
+  padding-top: 100px;
+  .menu_header {
+    h1 {
+      padding-top:100px;
+    }
+  }
+  .daily_specials {
+    ul {
+      a {
+        li {
+          padding: 10px 10px 10px 10px;
+          margin-right: 1px;
+        }
+      }
+    }
+  }
+}
+
+.menu {
+  margin-bottom: 400px;
+  .appetizers, .main_course, .desserts, .drinks {
+    clear: both;
+    width: 100%;
+  }
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+
+/************************** HEADER *************************/
+
+header#top_header {
+  margin-bottom: 100px;
+  .logo {
+    margin-left: -6%; 
+  }
+}
+
+
+.intro_text {
+  clear: both;
+  width: 100%;
+  margin-top: 0;
+  padding-right: 0;
+  padding-left: 15px;
+  
+}
+
+
+/************************** MENU SECTION *************************/
+
+/*********** SPECIALS NAVIGATION *********/
+#menu_section {
+  .daily_specials {
+    text-align: center;
+    nav.specials_nav {
+      display: none;
+      ul {
+        &:hover li {
+          display: block;
+        }
+        li {
+          width: 100%;
+          font-size: 110%;
+          display: block;
+        }
+        a {
+          display: block;
+        }
+      }
+      }
+    }
+  }
+
+
+  ul.menu_intro {
+  padding-bottom: 50px;
+}
+
+
+/************************** CONTACT *************************/
+
+#contact_section {
+  
+  .contact {
+    
+    form {
+      
+      label {
+        input {
+          width: 100%;
+          
+        }
+      }
+    }
+  }
+}
+
+
+}

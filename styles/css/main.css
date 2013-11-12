@@ -1,0 +1,758 @@
+/*********************** TYPOGRAPHY *****************************/
+/*********************** COLOURS *****************************/
+@font-face {
+  font-family: 'dayposterblackregular';
+  src: url('fonts/DAYPBL__-webfont.eot');
+  src: url('fonts/DAYPBL__-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/DAYPBL__-webfont.woff') format('woff'), url('fonts/DAYPBL__-webfont.ttf') format('truetype'), url('fonts/DAYPBL__-webfont.svg#dayposterblackregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+a:link {
+  color: ;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+p {
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2.3em;
+  font-family: 'dayposterblackregular', sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'dayposterblackregular', sans-serif;
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.2em;
+}
+.navfontstyle {
+  font-family: 'Microsoft Yi Baiti', 'Eras Light ITC', 'tahoma', 'helvetica', sans-serif;
+  font-size: 0.875em;
+}
+.pstyle {
+  font-family: 'Eras Light ITC', sans-serif;
+}
+.promoBlockLeft {
+  border-right-width: 34px;
+  border-right-style: solid;
+  border-right-color: #1e1610;
+}
+.promoBlockRight {
+  border-left-width: 35px;
+  border-left-style: solid;
+  border-left-color: #1e1610;
+}
+.headerPositioning {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sectionHeaderStyle {
+  color: #c5b990;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 0px 2px 5px #92832f;
+}
+.sectionHeaderStyle2 {
+  padding-top: 300px;
+  color: #c5b990;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 0px 2px 5px #92832f;
+  margin-bottom: -70px;
+  font-size: 2.5em;
+  clear: both;
+}
+.gradientBG {
+  background: #2b1f11;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(left, #2b1f11 0%, #000000 99%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2b1f11), color-stop(99%, #000000));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(left, #2b1f11 0%, #000000 99%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(left, #2b1f11 0%, #000000 99%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(left, #2b1f11 0%, #000000 99%);
+  /* IE10+ */
+
+  background: linear-gradient(to right, #2b1f11 0%, #000000 99%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b1f11', endColorstr='#000000', GradientType=1);
+  /* IE6-9 */
+
+}
+.sectionSubHeaderStyle {
+  margin: 0 0 10px 10px;
+}
+.sectionSubHeaderStyle:first-child {
+  background-color: #0f0f0f;
+  height: 31px;
+  margin-bottom: 10px;
+}
+.sectionSubHeaderStyle:first-child li {
+  display: inline-block;
+}
+.sectionSubHeaderStyle:first-child li h2 {
+  font-size: 1.875em;
+}
+.sectionSubHeaderStyle:first-child li p {
+  font-size: 0.875em;
+}
+body {
+  font-size: 1em;
+  color: #c4c4c4;
+  max-width: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: black;
+  text-transform: uppercase;
+  font-family: 'Eras Light ITC', 'tahoma', 'helvetica', sans-serif;
+  font-size: 100%;
+}
+/************************** HEADER *************************/
+header#top_header {
+  background-color: black;
+  width: 100%;
+  height: 116px;
+  /************************** NAVIGATION *************************/
+
+}
+header#top_header .logo {
+  float: left;
+  margin-right: 2%;
+}
+header#top_header .colourwhite {
+  color: #c5c5c5;
+}
+header#top_header nav {
+  float: left;
+  font-family: 'Microsoft Yi Baiti', 'Eras Light ITC', 'tahoma', 'helvetica', sans-serif;
+  font-size: 0.875em;
+  color: #92832f;
+  margin-top: 14px;
+}
+header#top_header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+header#top_header nav ul li a {
+  color: #c4c4c4;
+  font-size: 1.4em;
+  transition: color 0.5s ease;
+}
+header#top_header nav ul li a:hover {
+  color: white;
+}
+header#top_header nav ul.social_media {
+  margin-top: 10px;
+}
+header#top_header nav ul.social_media li {
+  margin-right: -6px;
+}
+header#top_header nav ul.social_media img {
+  width: 50%;
+}
+/************************** HOME *************************/
+#home {
+  position: relative;
+  max-width: 100%;
+  background-color: black;
+}
+#home .main_section header#home_header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -65px;
+}
+#home .main_section header#home_header h1 {
+  color: #c5b990;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 0px 2px 5px #92832f;
+}
+.hero {
+  max-width: 100%;
+}
+.hero .promotions_one {
+  max-width: 14.7222222222%;
+  float: left;
+}
+.hero .promotions_one .left_promo_block_one {
+  height: 115px;
+  border-right-width: 34px;
+  border-right-style: solid;
+  border-right-color: #1e1610;
+}
+.hero .promotions_one .left_promo_block_two {
+  height: 115px;
+  border-right-width: 34px;
+  border-right-style: solid;
+  border-right-color: #1e1610;
+}
+.hero .promotions_one .left_promo_block_two img {
+  border-right-width: 34px;
+  border-right-style: solid;
+  border-right-color: #1e1610;
+}
+.hero .main_image {
+  max-width: 72.5%;
+  float: left;
+}
+.hero .promotions_two {
+  max-width: 12.7777777778%;
+  float: left;
+}
+.hero .promotions_two .right_promo_block_one {
+  height: 138px;
+  border-left-width: 35px;
+  border-left-style: solid;
+  border-left-color: #1e1610;
+}
+.hero .promotions_two .right_promo_block_two {
+  height: 138px;
+}
+.hero .promotions_two .right_promo_block_two img {
+  border-left-width: 35px;
+  border-left-style: solid;
+  border-left-color: #1e1610;
+}
+.intro_text {
+  position: relative;
+  z-index: 2;
+  font-family: 'Eras Light ITC', sans-serif;
+  display: block;
+  margin-top: -70px;
+  padding-right: 235px;
+  float: right;
+  width: 330px;
+  text-shadow: -2px 1px 5px #000000;
+}
+.intro_text p {
+  margin-bottom: 0;
+  color: #c4c4c4;
+  background-color: #583d27;
+  font-size: 1.5em;
+  line-height: 60%;
+  padding: 8px 4px 3px 4px;
+}
+.intro_text .smallerText {
+  font-size: 0.6em;
+  color: #92832f;
+}
+/************************** MUSIC SECTION *************************/
+#music {
+  max-width: 100%;
+}
+#music header {
+  margin-bottom: 20px;
+  width: 100%;
+}
+#music header h2 {
+  color: #c4c4c4;
+  font-size: 1.875em;
+  background-color: #1e1610;
+  padding: 10px 10px 8px 10px;
+}
+.live_artists_list {
+  max-width: 100%;
+  font-size: 0.875em;
+}
+.live_artists_list .goldText {
+  color: #92832f;
+  margin-right: 4px;
+}
+.live_artists_list .row_one ul li,
+.live_artists_list .row_two ul li {
+  float: left;
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.65%;
+  margin-bottom: 10px;
+}
+.aera_details {
+  margin-bottom: 350px;
+}
+#menu_section {
+  max-width: 98%;
+  margin: 0 auto;
+}
+#menu_section header.menu_header h1 {
+  color: #c5b990;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 0px 2px 5px #92832f;
+  margin-bottom: -70px;
+}
+#menu_section header.menu_header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+#menu_section .daily_specials {
+  margin-bottom: 10px;
+}
+#menu_section .daily_specials ul a {
+  color: #92832f;
+}
+#menu_section .daily_specials ul a:last-child {
+  color: #c4c4c4;
+}
+#menu_section .daily_specials ul a:last-child li {
+  background-color: #1e1610;
+  transition: background-color 0.5s ease;
+}
+#menu_section .daily_specials ul a:last-child :hover {
+  background-color: #583d27;
+}
+#menu_section .daily_specials ul a li {
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  margin-right: 6px;
+  transition: background-color 0.5s ease;
+  background-color: #0f0f0f;
+}
+#menu_section .daily_specials ul a :hover {
+  background-color: #583d27;
+}
+/************************** MENU SECTION *************************/
+.menu .menu_intro {
+  margin: 0 0 10px 10px;
+}
+.menu .menu_intro:first-child {
+  background-color: #0f0f0f;
+  height: 31px;
+  margin-bottom: 10px;
+}
+.menu .menu_intro:first-child li {
+  display: inline-block;
+}
+.menu .menu_intro:first-child li h2 {
+  font-size: 1.875em;
+}
+.menu .menu_intro:first-child li p {
+  font-size: 0.875em;
+}
+.menu {
+  margin-bottom: 400px;
+}
+.menu .appetizers,
+.menu .main_course,
+.menu .desserts,
+.menu .drinks {
+  float: left;
+  display: inline-block;
+  width: 27.5%;
+  margin: 0 1.5125%;
+  margin-right: 0.5%;
+}
+.menu .appetizers li,
+.menu .main_course li,
+.menu .desserts li,
+.menu .drinks li {
+  margin-bottom: 3px;
+}
+.menu .appetizers li:first-child,
+.menu .main_course li:first-child,
+.menu .desserts li:first-child,
+.menu .drinks li:first-child,
+.menu .appetizers li:first-child + li,
+.menu .main_course li:first-child + li,
+.menu .desserts li:first-child + li,
+.menu .drinks li:first-child + li {
+  background: #2b1f11;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(left, #2b1f11 0%, #000000 99%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #2b1f11), color-stop(99%, #000000));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(left, #2b1f11 0%, #000000 99%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(left, #2b1f11 0%, #000000 99%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(left, #2b1f11 0%, #000000 99%);
+  /* IE10+ */
+
+  background: linear-gradient(to right, #2b1f11 0%, #000000 99%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b1f11', endColorstr='#000000', GradientType=1);
+  /* IE6-9 */
+
+}
+.menu .appetizers li img,
+.menu .main_course li img,
+.menu .desserts li img,
+.menu .drinks li img {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  -moz-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.menu .appetizers li :hover,
+.menu .main_course li :hover,
+.menu .desserts li :hover,
+.menu .drinks li :hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.menu .appetizers li p,
+.menu .main_course li p,
+.menu .desserts li p,
+.menu .drinks li p {
+  color: #92832f;
+  margin: 0 0 0 3px;
+}
+.menu .appetizers li h3,
+.menu .main_course li h3,
+.menu .desserts li h3,
+.menu .drinks li h3 {
+  margin: 0 0 0 3px;
+}
+/************************** CONTACT *************************/
+#contact_section {
+  max-width: 100%;
+  padding-top: 400px;
+}
+#contact_section header h1 {
+  color: #c5b990;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 0px 2px 5px #92832f;
+  margin-bottom: -70px;
+}
+#contact_section header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+#contact_section .contact ul {
+  margin: 0 0 10px 10px;
+}
+#contact_section .contact ul:first-child {
+  background-color: #0f0f0f;
+  height: 31px;
+  margin-bottom: 10px;
+}
+#contact_section .contact ul:first-child li {
+  display: inline-block;
+}
+#contact_section .contact ul:first-child li h2 {
+  font-size: 1.875em;
+}
+#contact_section .contact ul:first-child li p {
+  font-size: 0.875em;
+}
+#contact_section .contact form {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: left;
+}
+#contact_section .contact form label {
+  margin: 0 0 2% 0;
+  width: 100%;
+  float: left;
+}
+#contact_section .contact form label .labelappend {
+  width: 100%;
+}
+#contact_section .contact form label input {
+  color: #c4c4c4;
+  background-color: #1e1610;
+  border: none;
+  width: 50%;
+  padding: 10px;
+}
+#contact_section .contact form input[type="submit"] {
+  float: none;
+  background-color: #583d27;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  color: #92832f;
+  text-transform: uppercase;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/************************** FOOTER *************************/
+footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #0f0f0f;
+  clear: both;
+}
+footer p {
+  text-align: center;
+}
+/************************** MEDIA QUERIES *************************/
+@media only screen and (max-width: 900px) and (min-width: 320px) {
+  /************************** HEADER *************************/
+  header#top_header {
+    height: 250px;
+  }
+  header#top_header .logo {
+    text-align: center;
+    float: none;
+  }
+  header#top_header nav {
+    float: none;
+    text-align: center;
+    font-family: 'Microsoft Yi Baiti', 'Eras Light ITC', 'tahoma', 'helvetica', sans-serif;
+    font-size: 0.875em;
+  }
+  header#top_header nav ul {
+    margin-bottom: 10px;
+  }
+  /************************** HOME *************************/
+  #home .main_section header#home_header img {
+    max-width: 99%;
+  }
+  #home .main_section header#home_header h1 {
+    font-size: 2.5em;
+    clear: both;
+  }
+  .hero .promotions_one {
+    display: none;
+  }
+  .hero .main_image {
+    max-width: 100%;
+  }
+  .hero .promotions_two {
+    display: none;
+  }
+  .intro_text {
+    padding-right: 100px;
+  }
+  /************************** MUSIC SECTION *************************/
+  .live_artists_list {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .live_artists_list .row_one ul li,
+  .live_artists_list .row_two ul li {
+    float: left;
+    display: inline-block;
+    width: 40%;
+    margin: 0 2.2%;
+    margin-right: 40px;
+  }
+  /************************** MENU SECTION *************************/
+  #menu_section header.menu_header h1 {
+    clear: both;
+    font-size: 2.5em;
+  }
+  #menu_section header.menu_header img {
+    max-width: 99%;
+  }
+  .menu {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .menu .appetizers,
+  .menu .desserts {
+    padding-right: 120px;
+  }
+  .menu {
+    margin-bottom: 400px;
+  }
+  .menu .appetizers li img,
+  .menu .main_course li img,
+  .menu .desserts li img,
+  .menu .drinks li img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscalerayscale");
+    filter: gray;
+    -webkit-filter: grayscale(0);
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  /************************** CONTACT *************************/
+  #contact_section {
+    max-width: 100%;
+    margin-top: 200px;
+  }
+  #contact_section header h1 {
+    padding-top: 300px;
+  }
+  #contact_section header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    max-width: 99%;
+  }
+  #contact_section .contact ul {
+    margin: 0 0 10px 10px;
+  }
+  #contact_section .contact ul:first-child {
+    background-color: #0f0f0f;
+    height: 31px;
+    margin-bottom: 10px;
+  }
+  #contact_section .contact ul:first-child li {
+    display: inline-block;
+  }
+  #contact_section .contact ul:first-child li h2 {
+    font-size: 1.875em;
+  }
+  #contact_section .contact ul:first-child li p {
+    font-size: 0.875em;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+  /************************** HEADER *************************/
+  header#top_header {
+    font-size: 120%;
+  }
+  header#top_header nav ul.social_media li {
+    margin-right: -6px;
+  }
+  header#top_header nav ul.social_media img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 640px) and (min-width: 320px) {
+  /************************** HOME *************************/
+  body {
+    font-size: 120%;
+  }
+  header#top_header {
+    margin-bottom: 80px;
+  }
+  .hero {
+    max-width: 100%;
+  }
+  .hero .promotions_one {
+    display: none;
+  }
+  .hero .main_image {
+    max-width: 100%;
+  }
+  .hero .promotions_two {
+    display: none;
+  }
+  .intro_text {
+    clear: both;
+    width: 100%;
+    margin-top: 0;
+    padding-right: 0;
+    padding-left: 15px;
+  }
+  /************************** MUSIC SECTION *************************/
+  #music {
+    margin: 0 auto;
+    text-align: center;
+  }
+  #music header h2 {
+    clear: both;
+    text-align: center;
+  }
+  .live_artists_list {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.875em;
+  }
+  .live_artists_list .row_one ul li,
+  .live_artists_list .row_two ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /************************** MENU SECTION *************************/
+  ul.menu_intro {
+    padding-bottom: 30px;
+  }
+  #menu_section {
+    padding-top: 100px;
+  }
+  #menu_section .menu_header h1 {
+    padding-top: 100px;
+  }
+  #menu_section .daily_specials ul a li {
+    padding: 10px 10px 10px 10px;
+    margin-right: 1px;
+  }
+  .menu {
+    margin-bottom: 400px;
+  }
+  .menu .appetizers,
+  .menu .main_course,
+  .menu .desserts,
+  .menu .drinks {
+    clear: both;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) and (min-width: 320px) {
+  /************************** HEADER *************************/
+  header#top_header {
+    margin-bottom: 100px;
+  }
+  header#top_header .logo {
+    margin-left: -6%;
+  }
+  .intro_text {
+    clear: both;
+    width: 100%;
+    margin-top: 0;
+    padding-right: 0;
+    padding-left: 15px;
+  }
+  /************************** MENU SECTION *************************/
+  /*********** SPECIALS NAVIGATION *********/
+  #menu_section .daily_specials {
+    text-align: center;
+  }
+  #menu_section .daily_specials nav.specials_nav {
+    display: none;
+  }
+  #menu_section .daily_specials nav.specials_nav ul:hover li {
+    display: block;
+  }
+  #menu_section .daily_specials nav.specials_nav ul li {
+    width: 100%;
+    font-size: 110%;
+    display: block;
+  }
+  #menu_section .daily_specials nav.specials_nav ul a {
+    display: block;
+  }
+  ul.menu_intro {
+    padding-bottom: 50px;
+  }
+  /************************** CONTACT *************************/
+  #contact_section .contact form label input {
+    width: 100%;
+  }
+}
